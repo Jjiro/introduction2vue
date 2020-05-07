@@ -1,19 +1,13 @@
 
 <template>
   <footer class="footer">
-    <div id="app">
-      <v-app id="inspire">
-        <v-card height="150">
-          <v-footer absolute class="font-weight-medium">
-            <v-col class="text-center" cols="12">
-              <strong>©</strong>
-              {{ new Date().getFullYear() }} —
-              <strong>Jjiro</strong>
-            </v-col>
-          </v-footer>
-        </v-card>
-      </v-app>
-    </div>
+    <v-footer absolute class="font-weight-medium">
+      <v-col class="text-center" cols="12">
+        <strong>©</strong>
+        {{ new Date().getFullYear() }} —
+        <strong>Jjiro</strong>
+      </v-col>
+    </v-footer>
   </footer>
 </template>
 
